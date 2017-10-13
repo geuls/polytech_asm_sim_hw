@@ -1,0 +1,8 @@
+JMP gusev
+DB 06
+DB 04
+GUSEV:
+MOV A,06
+MOV B,04
+ADD A,B
+MOV B,O
