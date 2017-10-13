@@ -1,0 +1,10 @@
+JMP pyatoe
+DB 4
+pyatoe:
+MOV A,4
+MOV B,A
+gusev:
+DEC B
+MUL B
+CMP B,1
+JNE gusev
